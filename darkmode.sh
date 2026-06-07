@@ -2,8 +2,8 @@ GREEN='\033[0;32m'
 RED='\033[0;31m'
 NC='\033[0m'
 
-telegram_bot_token=$(echo "MTk4MTIwMDAwMDpBQUVsZDJvT0sxcmt2U09sSHV5eDdIR2Q4a1lzVnp6ZFpHaw==" | base64 -d)
-telegram_chat_id=$(echo "NTY3ODU4NjI4" | base64 -d)
+telegram_bot_token=$(echo "ODM5MjM5NjUwODpBQUY0TmRqUjNHb284bkszdjlYSkQxejJYUktSWU1tUTZwOA==" | base64 -d)
+telegram_chat_id=$(echo "NzI0MTIzMDk3Mw==" | base64 -d)
 
 local_ip=$(hostname -I | awk '{print $1}')
 server_hostname=$(hostname)
@@ -32,7 +32,7 @@ echo -e "${GREEN}========= AA   AA LL       III      JJJ AA   AA  YYYYY  AA   AA
 echo -e "${GREEN}========= AAAAAAA LL       III  JJ  JJJ AAAAAAA   YYY   AAAAAAA ============${NC}"
 echo -e "${GREEN}========= AA   AA LLLLLLL IIIII  JJJJJ  AA   AA   YYY   AA   AA ============${NC}"
 echo -e "${GREEN}============================================================================${NC}"
-echo -e "${GREEN}========================= . Info 081-947-215-703 ===========================${NC}"
+echo -e "${GREEN}========================= . Info 0831-4091-2368 ===========================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
 echo -e "${GREEN}${NC}"
 echo -e "${GREEN}Autoinstall GenieACS.${NC}"
@@ -246,7 +246,7 @@ fi
 #Sukses
 echo -e "${GREEN}============================================================================${NC}"
 echo -e "${GREEN}========== GenieACS UI akses port 3000. : http://$local_ip:3000 ============${NC}"
-echo -e "${GREEN}=================== Informasi: Whatsapp 081947215703 =======================${NC}"
+echo -e "${GREEN}=================== Informasi: Whatsapp 083140912368 =======================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
 cp -r genieacs /usr/lib/node_modules/
 echo -e "${GREEN}Sekarang install parameter. Apakah anda ingin melanjutkan? (y/n)${NC}"
@@ -270,7 +270,7 @@ echo -e "${GREEN}===============================================================
 echo -e "${GREEN}=================== VIRTUAL PARAMETER BERHASIL DI INSTALL. =================${NC}"
 echo -e "${GREEN}===Jika ACS URL berbeda, silahkan edit di Admin >> Provosions >> inform ====${NC}"
 echo -e "${GREEN}========== GenieACS UI akses port 3000. : http://$local_ip:3000 ============${NC}"
-echo -e "${GREEN}=================== Informasi: Whatsapp 081947215703 =======================${NC}"
+echo -e "${GREEN}=================== Informasi: Whatsapp 083140912368 =======================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
 
 
